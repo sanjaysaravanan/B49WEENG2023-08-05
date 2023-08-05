@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .flex-box {
+      display: flex;
+      width: calc(100vw);
+      height: calc(100vh);
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    .x-axis {
+      position: absolute;
+      height: 10px;
+      width: 100vw;
+      background-color: blue;
+      top: calc(50vh - 5px);
+    }
+
+    .y-axis {
+      position: absolute;
+      height: 100vh;
+      width: 10px;
+      background-color: red;
+      left: calc(50vw - 5px);
+    }
+
+    .child {
+      height: 100px;
+      width: 100px;
+      border: 2px solid red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="x-axis"></div>
+  <div class="y-axis"></div>
+  <div class="flex-box">
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+</body>
+
+</html>

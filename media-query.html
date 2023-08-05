@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+    header {
+      min-height: 75px;
+      background-color: orange;
+    }
+
+    body {
+      height: 100vh;
+      background-color: aqua;
+      margin: 0;
+    }
+
+    .column {
+      min-height: calc(100vh - 75px);
+      min-width: 29.333%;
+      margin: 2%;
+    }
+
+    .column-one {
+      background-color: green;
+    }
+
+    .column-two {
+      background-color: chartreuse;
+    }
+
+    .column-three {
+      background-color: coral;
+    }
+
+
+    /* minimum width */
+    /* Mobile 350 to 767px */
+    @media screen and (min-width: 350px) {
+      body {
+        height: 100vh;
+        background-color: blue;
+      }
+    }
+
+    /* Tablet 768 to 1023px */
+    @media screen and (min-width: 768px) {
+      body {
+        background-color: blueviolet;
+      }
+    }
+
+    /* Laptop 1024px or greater than 1024px   */
+    @media screen and (min-width: 1024px) {
+      body {
+        background-color: red;
+      }
+    }
+
+
+    /* Maximum Width */
+    /* @media screen and (max-width: 1024px) {
+      body {
+        background-color: red;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        background-color: blueviolet;
+      }
+    }
+
+    @media screen and (max-width: 350px) {
+      body {
+        background-color: blue;
+      }
+    } */
+  </style>
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+
+  <div style="display: flex;">
+    <div class="column column-one">
+
+    </div>
+    <div class="column column-two">
+
+    </div>
+    <div class="column column-three">
+
+    </div>
+  </div>
+
+</body>
+
+</html>

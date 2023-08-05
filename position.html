@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style>
+    body {
+      height: 200vh;
+      width: 200vh;
+      margin: 20px;
+      position: relative;
+    }
+
+    .common {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+    }
+
+    .bg-yellow {
+      background-color: yellow;
+    }
+
+    .bg-blue {
+      background-color: blue;
+    }
+
+    .bg-orange {
+      background-color: orange;
+    }
+
+    .pos-static {
+      position: static;
+      top: 100px;
+      left: 100px;
+    }
+
+    .pos-relative {
+      position: relative;
+      /* top: 0px;
+      left: 100px; */
+    }
+
+    .pos-absolute {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .pos-fixed {
+      position: fixed;
+      top: 10px;
+      left: 100px;
+    }
+
+    .pos-sticky {
+      position: sticky;
+      top: 0px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- <span>Mentor: Sanjay</span>
+  <span>Attendance: 13</span>
+  <div>B49WEENG</div> -->
+
+  <div class="common"></div>
+  <!-- <div>
+    <div class="common bg-yellow pos-absolute"></div>
+  </div> -->
+  <div class="common bg-orange pos-sticky"></div>
+
+  <div class="common bg-blue"></div>
+
+
+  <!-- <div class="common bg-blue" style="position: relative;">
+    <div class="common bg-yellow pos-absolute" style="top: 50px; left: 50px"></div>
+  </div>
+
+
+  <div class="common"></div> -->
+
+
+</body>
+
+</html>

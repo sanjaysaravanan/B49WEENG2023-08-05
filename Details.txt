@@ -1,0 +1,83 @@
+
+Topics:
+
+  Position Props: 
+    top, left, right, bottom, z-index
+
+  Fixed:
+    1. Removed from the normal flow of the document and made to appear float over normal flow of the document
+    2. No Space is occupied in the page layout
+    3. Affected by top, right, bottom, left values with respective to initial 
+        containing block (html tag)
+    4. Not Affected by scrolling
+
+  Sticky:
+    1. Goes witht the normal flow of the document
+    2. Occupies its own space in the document
+    3. Affected by top, right, bottom, left values with respective to initial 
+        containing block (html tag)
+    4. affected by top, left, ... values till the top, left, ... values are reached else not affected by scroll
+  
+  Overflow: (overflow-x, overflow-y)
+    visible:
+      overflow will be visible and produces a disturbing UI
+    hidden:
+      overflow will be hidden, some conntent will not be visible
+    scroll:
+      overflow will be visible via scroll bar irrespective of overflow content scroll bar will appear
+    auto:
+      overflow will be visible via scroll only when there is overflow content on either axis
+
+   Flex-Box:
+    display: flex;
+      it takes over the control of the children (width & height)
+
+    direction -> row: children placed in single row
+      justify-content moves content horizontally( x-axis )
+        start
+        center
+        end
+        space-evenly
+        space-around
+        space-between
+      
+      align-items moves content vertically
+        start
+        center
+        end
+
+      flex-wrap:
+        wrap -> wrappes the children horizontally when a width reduces less than child width
+        nowrap -> shrinks the width of the children to accommodate inside parent
+    
+    direction -> column: children placed in single column
+      justify-content moves content vertically
+        start
+        center
+        end
+        space-evenly
+        space-around
+        space-between
+      
+      align-items moves content horizontally
+        start
+        center
+        end
+
+      flex-wrap:
+        wrap -> wrappes the children horizontally
+        nowrap -> shrinks the height of the children to accommodate inside parent
+    
+    flex-flow: specify both direction and wrapping 
+
+  RWD ( Responsive Web Design )
+    Make a website look good in all the devices ( all sizes )
+
+    Media Query:
+      Chaning the CSS values based on the sizes of screen ( width of the screen )
+  
+Next Session:
+  Bootstrap
+  Mobile First Approach
+
+    
